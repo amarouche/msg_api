@@ -8,18 +8,19 @@
   
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Messenger API.
 
 ## DataBase
 
-Run docker composer
+Run docker composer 
 ```bash
+# run postgres & pgAdmin image
 $ docker-compose up
 ```
 Postgres host : 127.0.0.1:5432
-PgAdmin host : 127.0.0.1:5555
+PgAdmin host : http://127.0.0.1:5555/
 
-Data base schema : https://dbdiagram.io/d/613e2eeb825b5b0146fe3d09
+[Data base schema](https://dbdiagram.io/d/613e2eeb825b5b0146fe3d09) : https://dbdiagram.io/d/613e2eeb825b5b0146fe3d09
 
 ## Swagger 
 Api documentaion : 127.0.0.1:3000/docs
